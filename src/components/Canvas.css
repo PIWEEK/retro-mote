@@ -1,0 +1,44 @@
+.Canvas {
+  background-color: #fff;
+  height: 720px;
+  position: relative;
+  width: 1440px;
+}
+.postIt {
+  background-color: yellow;
+  cursor: pointer;
+  display: flex;
+  height: 100px;
+  padding: .8rem;
+  position: absolute;
+  width: 100px;
+}
+.addPostItForm {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+.addPostItForm input{
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 0.2rem .45rem 0;
+  width: 40px;
+  height: 40px;
+  transition: all 1s;
+}
+.addPostItForm input:focus{
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  padding: 0 1rem;
+  padding: 0;
+  width: 250px;
+  height: 40px;
+}
+.addPostItForm input::placeholder{
+  color: #ddd;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  padding: 0;
+}
